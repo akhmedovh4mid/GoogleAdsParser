@@ -101,7 +101,7 @@ class AccountSwitcher(MainClass):
         )
 
         self._swipe(
-            start_y=accounts_box_coords[1],
+            start_y=accounts_box_coords[1] - 50,
             end_y=accounts_scroll_container[1],
         )
 
