@@ -1,0 +1,11 @@
+{
+    "W8YPGUJNYXM7QSWG": {
+        "ru": { "start_time": "12:00", "end_time": "12:11" },
+        "us": { "start_time": "12:11", "end_time": "04:00" },
+        "ch": { "start_time": "04:00", "end_time": "12:00" }
+    },
+    "DEVICE_SERIAL_2": {
+        "ru": { "start_time": "13:00", "end_time": "14:00" },
+        "us": { "start_time": "09:00", "end_time": "10:00" }
+    }
+}
