@@ -89,7 +89,8 @@ class AccountSwitcher(MainClass):
 
         # Переходим к списку аккаунтов
         logger.debug("Переход к списку аккаунтов")
-        self.nodes.accounts.accounts_label.click_exists(timeout=timeout)
+        if not self.nodes.accounts.account_management.exists:
+            self.nodes.accounts.accounts_label.click_exists(timeout=timeout)
         self.nodes.accounts.account_management.click_exists(timeout=timeout)
 
         # Прокручиваем список аккаунтов
